@@ -106,42 +106,58 @@
 
 \subsection{What is the Purpose of Git?}
 
-\begin{frame}{First Slide Title}{Optional Subtitle}
+\begin{frame}{What is the Purpose of Git?}
   \begin{itemize}
   \item {
-    My first point.
+    Version Control
+    \pause
   }
   \item {
-    My second point.
+    Prevents Data Loss
+    \pause
+  }
+  \item {
+	Allows Rollback  
+	\pause
+  }
+  \item {
+  	Iterative Development
   }
   \end{itemize}
 \end{frame}
 
+\subsection{How Git Works}
+
+\begin{frame}{Blocks}
+\begin{block}{Repository}
+The repository is the authoritative final draft of work you have completed thus far.
+\end{block}
+\begin{block}{Staging Area}
+The staging area is a rough draft, work that is quality, but incomplete.
+\end{block}
+\begin{block}{Working Directory}
+The working directory is all files open related to the project, within the project folder.
+\end{block}
+\end{frame}
+
 \subsection{Installing Git}
 
-% You can reveal the parts of a slide one at a time
-% with the \pause command:
-\begin{frame}{Second Slide Title}
+\begin{frame}{What is the Purpose of Git?}
   \begin{itemize}
   \item {
-    First item.
-    \pause % The slide will pause after showing the first item
+    Windows: www.git-scm.com
+    \pause
   }
-  \item {   
-    Second item.
+  \item {
+    MacOS/Linux: terminal
+    \pause
   }
-  % You can also specify when the content should appear
-  % by using <n->:
-  \item<3-> {
-    Third item.
+  \item{
+	git --version 
+	\pause 
   }
-  \item<4-> {
-    Fourth item.
-  }
-  % or you can use the \uncover command to reveal general
-  % content (not just \items):
-  \item<5-> {
-    Fifth item. \uncover<6->{Extra text in the fifth item.}
+  \item{
+	sudo apt-get install git-all  
   }
   \end{itemize}
 \end{frame}
@@ -150,45 +166,15 @@
 
 \subsection{Purpose of GitHub}
 
-\begin{frame}{Blocks}
-\begin{block}{Block Title}
-You can also highlight sections of your presentation in a block, with it's own title
-\end{block}
-\begin{theorem}
-There are separate environments for theorems, examples, definitions and proofs.
-\end{theorem}
-\begin{example}
-Here is an example of an example block.
-\end{example}
-\end{frame}
-
 \subsection{Creating a GitHub Account}
 
 \subsection{Working with GitHub}
+
 % Placing a * after \section means it will not show in the
 % outline or table of contents.
-\section*{Summary}
+\section*{Questions}
 
-\begin{frame}{Summary}
-  \begin{itemize}
-  \item
-    The \alert{first main message} of your talk in one or two lines.
-  \item
-    The \alert{second main message} of your talk in one or two lines.
-  \item
-    Perhaps a \alert{third message}, but not more than that.
-  \end{itemize}
-  
-  \begin{itemize}
-  \item
-    Outlook
-    \begin{itemize}
-    \item
-      Something you haven't solved.
-    \item
-      Something else you haven't solved.
-    \end{itemize}
-  \end{itemize}
+\begin{frame}{Questions?}
 \end{frame}
 
 
@@ -206,20 +192,11 @@ Here is an example of an example block.
   \beamertemplatebookbibitems
   % Start with overview books.
 
-  \bibitem{Author1990}
-    A.~Author.
-    \newblock {\em Handbook of Everything}.
-    \newblock Some Press, 1990.
- 
-    
-  \beamertemplatearticlebibitems
-  % Followed by interesting articles. Keep the list short. 
+  \bibitem{ChaconStraub2018}
+    Chacon and Straub
+    \newblock {\em Pro Git}.
+    \newblock APress, 2018.
 
-  \bibitem{Someone2000}
-    S.~Someone.
-    \newblock On this and that.
-    \newblock {\em Journal of This and That}, 2(1):50--100,
-    2000.
   \end{thebibliography}
 \end{frame}
 
